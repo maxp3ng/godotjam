@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://cxr8nwrlfbi1v"]
+[gd_scene load_steps=5 format=3 uid="uid://cxr8nwrlfbi1v"]
 
 [ext_resource type="Material" uid="uid://71ylq1dgwtag" path="res://stone.tres" id="1_a202f"]
+[ext_resource type="Material" uid="uid://bfdmlavdhavb6" path="res://grass.tres" id="1_noarx"]
 
 [sub_resource type="HeightMapShape3D" id="HeightMapShape3D_4xowi"]
 map_width = 75
@@ -21,6 +22,7 @@ shape = SubResource("HeightMapShape3D_4xowi")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Ground"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+material_override = ExtResource("1_noarx")
 mesh = SubResource("BoxMesh_a202f")
 
 [node name="Hill Stone Wall" type="StaticBody3D" parent="."]
@@ -43,6 +45,7 @@ shape = SubResource("HeightMapShape3D_4xowi")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Hill Surface"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+material_override = ExtResource("1_noarx")
 mesh = SubResource("BoxMesh_a202f")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
