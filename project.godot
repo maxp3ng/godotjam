@@ -11,4 +11,5 @@ config_version=5
 [application]
 
 config/name="test"
+run/main_scene="uid://cdkk2vfihhp31"
 config/features=PackedStringArray("4.4", "Forward Plus")
