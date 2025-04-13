@@ -1,9 +1,10 @@
-[gd_scene load_steps=39 format=3 uid="uid://cdkk2vfihhp31"]
+[gd_scene load_steps=41 format=3 uid="uid://cdkk2vfihhp31"]
 
 [ext_resource type="Texture2D" uid="uid://dp35u80fla6rm" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png" id="1_wc5p8"]
 [ext_resource type="Texture2D" uid="uid://cv13y6g7151id" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png" id="2_jsk3o"]
 [ext_resource type="Texture2D" uid="uid://bhaqckr4qj4p0" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt.png" id="3_4arys"]
 [ext_resource type="Texture2D" uid="uid://c73j1h7spemwf" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_v2.png" id="4_6iypd"]
+[ext_resource type="Texture2D" uid="uid://cxb1atx5bbh8j" path="res://Sprout Lands - Sprites - Basic pack/Objects/Free_Chicken_House.png" id="5_tcnuu"]
 [ext_resource type="Texture2D" uid="uid://dyono15s1jwny" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_Wide.png" id="5_tereu"]
 [ext_resource type="Texture2D" uid="uid://dcump0g6vr4cp" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_Wide_v2.png" id="6_cdqbm"]
 [ext_resource type="Texture2D" uid="uid://bsvhee33ttxgm" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Water.png" id="7_imku0"]
@@ -127,6 +128,18 @@ texture = ExtResource("7_imku0")
 1:0/0 = 0
 2:0/0 = 0
 3:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_id0nj"]
+texture = ExtResource("5_tcnuu")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jsk3o"]
 texture = ExtResource("3_4arys")
@@ -435,6 +448,7 @@ sources/8 = SubResource("TileSetAtlasSource_j3e5s")
 sources/9 = SubResource("TileSetAtlasSource_nu31w")
 sources/10 = SubResource("TileSetAtlasSource_5t8nk")
 sources/11 = SubResource("TileSetAtlasSource_obt1j")
+sources/12 = SubResource("TileSetAtlasSource_id0nj")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wlxy5"]
 texture = ExtResource("1_wc5p8")
@@ -944,7 +958,7 @@ layer_0/tile_data = PackedInt32Array(1114126, 8, 0, 1179662, 8, 1, 1245198, 8, 1
 texture_filter = 1
 tile_set = SubResource("TileSet_tereu")
 format = 2
-layer_0/tile_data = PackedInt32Array(720949, 6, 1, 786485, 6, 1, 852021, 6, 2, 655413, 6, 0, 458806, 65544, 0, 524342, 8, 1, 589878, 8, 2, 655414, 65542, 0, 852022, 65542, 2, 458807, 131080, 3, 655415, 65542, 0, 852023, 7, 1, 458808, 131080, 3, 655416, 65542, 0, 852024, 65542, 2, 458809, 131080, 3, 655417, 65542, 0, 852025, 196614, 2, 458810, 196616, 0, 524346, 8, 1, 589882, 8, 2, 655418, 65542, 0, 852026, 65542, 2, 655419, 131078, 0, 720955, 131078, 1, 786491, 131078, 1, 852027, 131078, 2)
+layer_0/tile_data = PackedInt32Array(720949, 6, 1, 786485, 6, 1, 852021, 6, 2, 655413, 6, 0, 458806, 65544, 0, 524342, 8, 1, 589878, 8, 2, 655414, 65542, 0, 852022, 65542, 2, 458807, 131080, 3, 655415, 65542, 0, 852023, 7, 1, 458808, 131080, 3, 655416, 65542, 0, 852024, 65542, 2, 458809, 131080, 3, 655417, 65542, 0, 852025, 196614, 2, 458810, 196616, 0, 524346, 8, 1, 589882, 8, 2, 655418, 65542, 0, 852026, 65542, 2, 655419, 131078, 0, 720955, 131078, 1, 786491, 131078, 1, 852027, 131078, 2, 262149, 12, 0, 327685, 12, 1, 393221, 12, 2, 262150, 65548, 0, 327686, 65548, 1, 393222, 65548, 2, 262151, 131084, 0, 327687, 131084, 1, 393223, 131084, 2, 131083, 12, 0, 196619, 12, 1, 262155, 12, 2, 131084, 65548, 0, 196620, 65548, 1, 262156, 65548, 2, 131085, 131084, 0, 196621, 131084, 1, 262157, 131084, 2, 196634, 12, 0, 262170, 12, 1, 327706, 12, 2, 196635, 65548, 0, 262171, 65548, 1, 327707, 65548, 2, 196636, 131084, 0, 262172, 131084, 1, 327708, 131084, 2)
 
 [node name="Paths + House Roof" type="TileMap" parent="."]
 texture_filter = 1
