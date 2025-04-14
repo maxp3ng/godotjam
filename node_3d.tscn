@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=3 uid="uid://cdkk2vfihhp31"]
+[gd_scene load_steps=42 format=3 uid="uid://cdkk2vfihhp31"]
 
 [ext_resource type="Texture2D" uid="uid://dp35u80fla6rm" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png" id="1_wc5p8"]
 [ext_resource type="Texture2D" uid="uid://cv13y6g7151id" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png" id="2_jsk3o"]
@@ -16,6 +16,7 @@
 [ext_resource type="Texture2D" uid="uid://c1y34qih3lwov" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png" id="13_3v7ru"]
 [ext_resource type="Texture2D" uid="uid://pykhbjj65wjv" path="res://Sprout Lands - Sprites - Basic pack/Objects/Egg_item.png" id="14_tcnuu"]
 [ext_resource type="Texture2D" uid="uid://bf8m0wmiakul1" path="res://Sprout Lands - Sprites - Basic pack/Objects/Wood_Bridge.png" id="15_3v7ru"]
+[ext_resource type="Script" uid="uid://bych60fkxmxhc" path="res://spawner.gd" id="17_tuemg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4arys"]
 texture = ExtResource("4_6iypd")
@@ -930,7 +931,16 @@ sources/8 = SubResource("TileSetAtlasSource_2yde8")
 
 [node name="Node" type="Node"]
 
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_imku0")
+
 [node name="Water" type="TileMap" parent="."]
+visible = false
 texture_filter = 1
 tile_set = SubResource("TileSet_tereu")
 format = 2
@@ -970,3 +980,19 @@ layer_0/tile_data = PackedInt32Array(655413, 5, 1, 720949, 5, 2, 786485, 5, 3, 8
 texture_filter = 1
 tile_set = SubResource("TileSet_tereu")
 format = 2
+
+[node name="Spawner" type="Node2D" parent="."]
+script = ExtResource("17_tuemg")
+
+[node name="Marker2D" type="Marker2D" parent="Spawner"]
+position = Vector2(200, 65)
+
+[node name="Marker2D2" type="Marker2D" parent="Spawner"]
+position = Vector2(104, 96)
+
+[node name="Marker2D3" type="Marker2D" parent="Spawner"]
+position = Vector2(440, 80)
+
+[node name="Timer" type="Timer" parent="Spawner"]
+wait_time = 0.75
+autostart = true
