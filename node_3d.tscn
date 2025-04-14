@@ -1,4 +1,4 @@
-[gd_scene load_steps=42 format=3 uid="uid://cdkk2vfihhp31"]
+[gd_scene load_steps=43 format=3 uid="uid://cdkk2vfihhp31"]
 
 [ext_resource type="Texture2D" uid="uid://dp35u80fla6rm" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png" id="1_wc5p8"]
 [ext_resource type="Texture2D" uid="uid://cv13y6g7151id" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png" id="2_jsk3o"]
@@ -929,6 +929,8 @@ sources/6 = SubResource("TileSetAtlasSource_jsnrv")
 sources/7 = SubResource("TileSetAtlasSource_lggff")
 sources/8 = SubResource("TileSetAtlasSource_2yde8")
 
+[sub_resource type="Curve2D" id="Curve2D_tuemg"]
+
 [node name="Node" type="Node"]
 
 [node name="TextureRect" type="TextureRect" parent="."]
@@ -995,3 +997,7 @@ position = Vector2(440, 80)
 
 [node name="PathMarker" type="Marker2D" parent="."]
 position = Vector2(104, 351)
+
+[node name="Path2D" type="Path2D" parent="."]
+position = Vector2(68, 64)
+curve = SubResource("Curve2D_tuemg")

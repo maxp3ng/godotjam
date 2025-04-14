@@ -8,6 +8,7 @@ var enemies := []
 var spawn_tick := 1 #s
 var spawn_duration := 10 #s
 var timer := Timer.new() 
+var rng = RandomNumberGenerator.new()
 
 func _ready():
 	var tgt := get_parent().get_node("PathMarker") 
@@ -35,7 +36,9 @@ func _ready():
 	
 	for i in enemies: 
 		if i and i.is_inside_tree(): 
-			i.move_sprite(tgt.global_position)
+			#i.move_sprite(tgt.global_position)
+			move_enemy_group(i, tgt.global_position)
+
 	await get_tree().create_timer(10).timeout 
 	get_tree().quit() 
 	
@@ -58,8 +61,19 @@ func _on_spawn_timer_timeout():
 			enemies.append(enemy)
 			
 			
-			
-			
+func move_enemy_group(enemy, tgt: Vector2) -> void: 
+	var delay = rng.randf_range(0,0.5)
+	await get_tree().create_timer(delay).timeout 
+	enemy.move_sprite(tgt)
+	#var timer_delay = Timer.new() 
+	#timer_delay.wait_time = delay 
+	#timer_delay.one_shot = true 
+	#timer_delay.connect("timeout", Callable(self, "_on_enemy_delay_timeout"), [enemy, tgt])
+	##await get_tree().create_timer(timer_delay).timeout
+	##enemy.move_sprite(tgt)
+	#add_child(timer_delay)
+	#timer_delay.start() 
+
 #func _on_timer_timeout() -> void:
 #
 	#if spawners.is_empty(): 
