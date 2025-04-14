@@ -993,6 +993,5 @@ position = Vector2(104, 96)
 [node name="Marker2D3" type="Marker2D" parent="Spawner"]
 position = Vector2(440, 80)
 
-[node name="Timer" type="Timer" parent="Spawner"]
-wait_time = 0.75
-autostart = true
+[node name="PathMarker" type="Marker2D" parent="."]
+position = Vector2(104, 351)
