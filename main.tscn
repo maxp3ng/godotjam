@@ -1,25 +1,25 @@
 [gd_scene load_steps=43 format=3 uid="uid://cdkk2vfihhp31"]
 
-[ext_resource type="Texture2D" uid="uid://dp35u80fla6rm" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png" id="1_wc5p8"]
-[ext_resource type="Texture2D" uid="uid://cv13y6g7151id" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png" id="2_jsk3o"]
-[ext_resource type="Texture2D" uid="uid://bhaqckr4qj4p0" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt.png" id="3_4arys"]
-[ext_resource type="Texture2D" uid="uid://c73j1h7spemwf" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_v2.png" id="4_6iypd"]
-[ext_resource type="Texture2D" uid="uid://cxb1atx5bbh8j" path="res://Sprout Lands - Sprites - Basic pack/Objects/Free_Chicken_House.png" id="5_tcnuu"]
-[ext_resource type="Texture2D" uid="uid://dyono15s1jwny" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_Wide.png" id="5_tereu"]
-[ext_resource type="Texture2D" uid="uid://dcump0g6vr4cp" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_Wide_v2.png" id="6_cdqbm"]
-[ext_resource type="Texture2D" uid="uid://bsvhee33ttxgm" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Water.png" id="7_imku0"]
-[ext_resource type="Texture2D" uid="uid://b1junf4ghb8cl" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Path_Tile.png" id="8_jsk3o"]
-[ext_resource type="Texture2D" uid="uid://keoqyd2p11b3" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Wooden_House_Walls_Tilset.png" id="8_tereu"]
-[ext_resource type="Texture2D" uid="uid://df832e7vlk500" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Wooden_House_Roof_Tilset.png" id="10_cdqbm"]
-[ext_resource type="Texture2D" uid="uid://uissnb10d1my" path="res://Sprout Lands - Sprites - Basic pack/Objects/Paths.png" id="10_wlxy5"]
-[ext_resource type="Texture2D" uid="uid://kc1s8kdcjdy1" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Doors.png" id="11_imku0"]
-[ext_resource type="Texture2D" uid="uid://c1y34qih3lwov" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png" id="13_3v7ru"]
-[ext_resource type="Texture2D" uid="uid://pykhbjj65wjv" path="res://Sprout Lands - Sprites - Basic pack/Objects/Egg_item.png" id="14_tcnuu"]
-[ext_resource type="Texture2D" uid="uid://bf8m0wmiakul1" path="res://Sprout Lands - Sprites - Basic pack/Objects/Wood_Bridge.png" id="15_3v7ru"]
-[ext_resource type="Script" uid="uid://bych60fkxmxhc" path="res://spawner.gd" id="17_tuemg"]
+[ext_resource type="Texture2D" uid="uid://bsvhee33ttxgm" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Water.png" id="1_yaehf"]
+[ext_resource type="Texture2D" uid="uid://c73j1h7spemwf" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_v2.png" id="2_074og"]
+[ext_resource type="Texture2D" uid="uid://b1junf4ghb8cl" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Path_Tile.png" id="3_cegan"]
+[ext_resource type="Texture2D" uid="uid://uissnb10d1my" path="res://Sprout Lands - Sprites - Basic pack/Objects/Paths.png" id="4_82xsv"]
+[ext_resource type="Texture2D" uid="uid://cxb1atx5bbh8j" path="res://Sprout Lands - Sprites - Basic pack/Objects/Free_Chicken_House.png" id="5_getpj"]
+[ext_resource type="Texture2D" uid="uid://bhaqckr4qj4p0" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt.png" id="6_ryguw"]
+[ext_resource type="Texture2D" uid="uid://dyono15s1jwny" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_Wide.png" id="7_d13ii"]
+[ext_resource type="Texture2D" uid="uid://dcump0g6vr4cp" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_Wide_v2.png" id="8_1u8w0"]
+[ext_resource type="Texture2D" uid="uid://df832e7vlk500" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Wooden_House_Roof_Tilset.png" id="9_0odxb"]
+[ext_resource type="Texture2D" uid="uid://keoqyd2p11b3" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Wooden_House_Walls_Tilset.png" id="10_lswn8"]
+[ext_resource type="Texture2D" uid="uid://kc1s8kdcjdy1" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Doors.png" id="11_a6jrf"]
+[ext_resource type="Texture2D" uid="uid://c1y34qih3lwov" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png" id="12_xuqvo"]
+[ext_resource type="Texture2D" uid="uid://pykhbjj65wjv" path="res://Sprout Lands - Sprites - Basic pack/Objects/Egg_item.png" id="13_qsp4k"]
+[ext_resource type="Texture2D" uid="uid://dp35u80fla6rm" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png" id="14_kq58d"]
+[ext_resource type="Texture2D" uid="uid://cv13y6g7151id" path="res://Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png" id="15_seu75"]
+[ext_resource type="Texture2D" uid="uid://bf8m0wmiakul1" path="res://Sprout Lands - Sprites - Basic pack/Objects/Wood_Bridge.png" id="16_htxhm"]
+[ext_resource type="Script" uid="uid://bych60fkxmxhc" path="res://spawner.gd" id="17_jq2sk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4arys"]
-texture = ExtResource("4_6iypd")
+texture = ExtResource("2_074og")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -92,7 +92,7 @@ texture = ExtResource("4_6iypd")
 9:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6iypd"]
-texture = ExtResource("8_jsk3o")
+texture = ExtResource("3_cegan")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -111,7 +111,7 @@ texture = ExtResource("8_jsk3o")
 2:5/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5t8nk"]
-texture = ExtResource("10_wlxy5")
+texture = ExtResource("4_82xsv")
 0:0/0 = 0
 0:1/0 = 0
 1:1/0 = 0
@@ -124,14 +124,14 @@ texture = ExtResource("10_wlxy5")
 3:3/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_obt1j"]
-texture = ExtResource("7_imku0")
+texture = ExtResource("1_yaehf")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
 3:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_id0nj"]
-texture = ExtResource("5_tcnuu")
+texture = ExtResource("5_getpj")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -143,7 +143,7 @@ texture = ExtResource("5_tcnuu")
 2:2/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jsk3o"]
-texture = ExtResource("3_4arys")
+texture = ExtResource("6_ryguw")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -216,7 +216,7 @@ texture = ExtResource("3_4arys")
 9:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tereu"]
-texture = ExtResource("5_tereu")
+texture = ExtResource("7_d13ii")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -285,7 +285,7 @@ texture = ExtResource("5_tereu")
 9:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cdqbm"]
-texture = ExtResource("6_cdqbm")
+texture = ExtResource("8_1u8w0")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -354,7 +354,7 @@ texture = ExtResource("6_cdqbm")
 9:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s0gvp"]
-texture = ExtResource("10_cdqbm")
+texture = ExtResource("9_0odxb")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -390,7 +390,7 @@ texture = ExtResource("10_cdqbm")
 6:4/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vxd74"]
-texture = ExtResource("8_tereu")
+texture = ExtResource("10_lswn8")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -407,14 +407,14 @@ texture = ExtResource("8_tereu")
 3:2/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dhlwf"]
-texture = ExtResource("11_imku0")
+texture = ExtResource("11_a6jrf")
 0:0/0 = 0
 0:1/0 = 0
 0:2/0 = 0
 0:3/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j3e5s"]
-texture = ExtResource("13_3v7ru")
+texture = ExtResource("12_xuqvo")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -433,7 +433,7 @@ texture = ExtResource("13_3v7ru")
 3:3/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nu31w"]
-texture = ExtResource("14_tcnuu")
+texture = ExtResource("13_qsp4k")
 0:0/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_tereu"]
@@ -452,7 +452,7 @@ sources/11 = SubResource("TileSetAtlasSource_obt1j")
 sources/12 = SubResource("TileSetAtlasSource_id0nj")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wlxy5"]
-texture = ExtResource("1_wc5p8")
+texture = ExtResource("14_kq58d")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -526,7 +526,7 @@ texture = ExtResource("1_wc5p8")
 8:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3v7ru"]
-texture = ExtResource("2_jsk3o")
+texture = ExtResource("15_seu75")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -596,7 +596,7 @@ texture = ExtResource("2_jsk3o")
 10:4/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tcnuu"]
-texture = ExtResource("3_4arys")
+texture = ExtResource("6_ryguw")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -669,7 +669,7 @@ texture = ExtResource("3_4arys")
 9:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tuemg"]
-texture = ExtResource("4_6iypd")
+texture = ExtResource("2_074og")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -742,7 +742,7 @@ texture = ExtResource("4_6iypd")
 9:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i0g27"]
-texture = ExtResource("5_tereu")
+texture = ExtResource("7_d13ii")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -811,7 +811,7 @@ texture = ExtResource("5_tereu")
 9:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ealrb"]
-texture = ExtResource("6_cdqbm")
+texture = ExtResource("8_1u8w0")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -880,14 +880,14 @@ texture = ExtResource("6_cdqbm")
 9:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jsnrv"]
-texture = ExtResource("7_imku0")
+texture = ExtResource("1_yaehf")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
 3:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lggff"]
-texture = ExtResource("8_tereu")
+texture = ExtResource("10_lswn8")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -904,7 +904,7 @@ texture = ExtResource("8_tereu")
 3:2/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2yde8"]
-texture = ExtResource("15_3v7ru")
+texture = ExtResource("16_htxhm")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -939,7 +939,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("7_imku0")
+texture = ExtResource("1_yaehf")
 
 [node name="Water" type="TileMap" parent="."]
 visible = false
@@ -984,7 +984,7 @@ tile_set = SubResource("TileSet_tereu")
 format = 2
 
 [node name="Spawner" type="Node2D" parent="."]
-script = ExtResource("17_tuemg")
+script = ExtResource("17_jq2sk")
 
 [node name="Marker2D" type="Marker2D" parent="Spawner"]
 position = Vector2(200, 65)

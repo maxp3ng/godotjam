@@ -1,4 +1,3 @@
-
 extends Node2D
 
 var scene := preload("res://enemy.tscn")
